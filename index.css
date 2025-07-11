@@ -108,42 +108,36 @@ body {
 
 /* 外面的拼接为正方形 */
 .out-front {
-  opacity: 0.6;
   transform: translateZ(100px);
   background-size: 100%;
   background-image: url(./images/2.jpg);
 }
 
 .out-back {
-  opacity: 0.6;
   transform: translateZ(-100px);
   background-size: 100%;
   background-image: url(./images/1.jpg);
 }
 
 .out-left {
-  opacity: 0.6;
   transform: rotateY(90deg) translateZ(100px);
   background-size: 100%;
   background-image: url(./images/3.jpg);
 }
 
 .out-right {
-  opacity: 0.6;
   transform: rotateY(-90deg) translateZ(100px);
   background-size: 100%;
   background-image: url(./images/4.jpg);
 }
 
 .out-top {
-  opacity: 0.6;
   transform: rotateX(90deg) translateZ(100px);
   background-size: 100%;
   background-image: url(./images/5.jpg);
 }
 
 .out-bottom {
-  opacity: 0.6;
   transform: rotateX(-90deg) translateZ(100px);
   background-size: 100%;
   background-image: url(./images/6.jpg);
